@@ -1,6 +1,6 @@
-# Project Name
+# The Hub
 
-This project is a web application designed with a FastAPI backend, a React frontend, and includes Jupyter notebooks for data analysis and model training. The project structure promotes maintainability, scalability, and clarity.
+This project is a PaaS application designed with a FastAPI backend. The project structure promotes maintainability, scalability, and clarity.
 
 ## Project Structure
 
