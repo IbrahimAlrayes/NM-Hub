@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from data import Prompt
+from src.llm.data import Prompt
 genai.configure(api_key='AIzaSyAVDR6tcYRjOKOlwGw6qfPUX32ul30UmyI')
 class LLM:
     def __init__(self, api_key, model_name='gemini-1.5-flash-latest'):

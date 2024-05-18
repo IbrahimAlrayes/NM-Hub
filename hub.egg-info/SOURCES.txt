@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+hub.egg-info/PKG-INFO
+hub.egg-info/SOURCES.txt
+hub.egg-info/dependency_links.txt
+hub.egg-info/top_level.txt
