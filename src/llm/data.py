@@ -34,8 +34,8 @@ import re
 
 
 class Prompt:
-    def __init__(self):
-        document = SinglePDFLoader('regulations_data/raw/Regulations.pdf', clean=False)[2:]
+    def __init__(self, file_path:str):
+        document = SinglePDFLoader(file_path, clean=False)[2:]
         self.document = merge_context(document)
         self.history = {'system': [], 'user': []}
         self.history_str = ''
